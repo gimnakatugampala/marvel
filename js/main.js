@@ -1,2 +1,8 @@
+const searchHero = document.getElementById('enterHero');
+const searchName = document.getElementById('name');
 
-getCharacters().then(data => console.log(data))
+//submit the search hero Term
+
+getCharacters()
+.then(data => console.log(data))
+
