@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bevan", cursive;
+  font-size: 17px;
+}
+
+.bg-img {
+  background-image: url("../img/comicbook_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
