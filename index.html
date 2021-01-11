@@ -3,30 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Marvel Comics | Characters</title>
   </head>
   <body>
-    <!--Header -->
-    <header>
-      <img src="img/54684.jpg" class="header-img" />
-      <div class="search-bg">
-        <div class="header-container">
-          <h1>Search Heros</h1>
-          <form id="enterHero">
-            <input type="text" id="name" placeholder="Enter Hero" />
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
+    <!--Navvar : Topic -->
+    <nav>
+      <div class="nav-wrapper grey darken-1">
+        <a href="#" class="brand-logo">Search Heros</a>
       </div>
-    </header>
+    </nav>
 
-    <!--Section : Characters info-->
-    <section class="section-info">
-      <div class="character-img"></div>
-      <div class="character-description"></div>
-    </section>
+    <!--Section : img and searh bar-->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./img/54699.jpg" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>Search Hero Name</h3>
+            <form id="enterHeros">
+              <div class="input-field">
+                <input type="text" id="name" placeholder="Enter Hero Name.." />
+                <button class="">Submit</button>
+              </div>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!--Section : Stories-->
     <script src="js/marvel.api.js"></script>
     <script src="js/main.js"></script>

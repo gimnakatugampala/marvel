@@ -9,6 +9,12 @@ body {
   font-size: 17px;
   background: #ccc;
   color: rgb(37, 35, 35);
+  margin: 0;
+}
+
+header img {
+  width: 100vw;
+  height: 50vh;
 }
 
 .header-container {
@@ -16,4 +22,39 @@ body {
   color: #fff;
   display: flex;
   justify-content: space-between;
+}
+
+.header-container p {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.header-container .enterHero {
+  margin-top: 15px;
+}
+
+.header-container #name {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.btn {
+  background-color: #696969;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.header-container #name:focus {
+  outline: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
