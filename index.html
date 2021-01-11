@@ -7,32 +7,27 @@
     <title>Marvel Comics | Characters</title>
   </head>
   <body>
-    <div class="bg-over">
-      <div class="bg-img">
-        <!--Header -->
-        <header>
-          <!-- <img src="img/54684.jpg" /> -->
-          <div class="search-bg">
-            <div class="container">
-              <h1>Search Heros</h1>
-              <form id="enterHero">
-                <input type="text" id="name" placeholder="Enter Hero" />
-                <input type="submit" value="Submit" />
-              </form>
-            </div>
-          </div>
-        </header>
-
-        <!--Section : Characters info-->
-        <section class="section-info">
-          <div class="character-img"></div>
-          <div class="character-description"></div>
-        </section>
-
-        <!--Section : Stories-->
+    <!--Header -->
+    <header>
+      <img src="img/54684.jpg" class="header-img" />
+      <div class="search-bg">
+        <div class="container">
+          <h1>Search Heros</h1>
+          <form id="enterHero">
+            <input type="text" id="name" placeholder="Enter Hero" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
-    </div>
+    </header>
 
+    <!--Section : Characters info-->
+    <section class="section-info">
+      <div class="character-img"></div>
+      <div class="character-description"></div>
+    </section>
+
+    <!--Section : Stories-->
     <script src="js/marvel.api.js"></script>
     <script src="js/main.js"></script>
   </body>

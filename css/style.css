@@ -7,11 +7,13 @@
 body {
   font-family: "Bevan", cursive;
   font-size: 17px;
+  background: #ccc;
+  color: rgb(37, 35, 35);
 }
 
-.bg-img {
-  background-image: url("../img/comicbook_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.header-container {
+  background-color: #696969;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
