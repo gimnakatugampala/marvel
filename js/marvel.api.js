@@ -1,6 +1,6 @@
 //Creaditendials
 const publickey = '48342c5f372aa81b8cd704e870424c46';
-const hash  = 'd41d8cd98f00b204e9800998ecf8427e';
+const hash  = 'a2f024a0b57719f14d611e3c9c4e71df';
 
 //fetch all characters
 async function getCharacters(){
