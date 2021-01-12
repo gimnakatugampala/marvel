@@ -1,6 +1,7 @@
 const searchHero = document.getElementById('enterHeros');
 const searchName = document.getElementById('name');
 const appendInfo = document.getElementById('info-append');
+const submitbtn = document.getElementById('btn-submit');
 
 
 
@@ -146,7 +147,7 @@ function submitName(e){
         })
     }
 
-   
+
 
 
     //Slider
