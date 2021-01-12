@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   background: #ccc;
   color: rgb(37, 35, 35);
